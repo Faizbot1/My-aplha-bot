@@ -54,17 +54,17 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Faiz Botz" //namabot kalian
-global.ownername = "Faiz Store" //nama kalian
+global.botname = "Alphabot-Mdོ" //namabot kalian
+global.ownername = "Faiz Aplha" //nama kalian
 global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
 global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.email = "faisgaming131@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Makassar' //  timezone wib
 global.premium_fitur = ["ai", "openai", "chatgpt"] //tambahin aja sendiri, soalnya gk semua org mau fiturnya premium jadi gw buat kyk gini aja, biar bisa custom fitur mana aja yang bakal di jadiin premium
-global.badword_list = ["asu", "anjir"," bjir","kontol","kntl","mmk","memek","tai","anjing","goblok","anjg","kntl"] //tambahin sendiri kata² nya, gunakan huruf kecil
-global.premium = ['6288888888888'] //premium user
+global.badword_list = ["asu", "anjir"] //tambahin sendiri kata² nya, gunakan huruf kecil
+global.premium = ['6281234567890'] //premium user
 global.owner = ["6285383056042", "6282199060813"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = owner[0] + "@s.whatsapp.net"
 global.ownernomerr = "+"+ownernomer //tidak perlu di edit
@@ -73,8 +73,8 @@ global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.tag_owner = "./tag_owner.mp3" // audio ini akan di kirim apabila ada member yang menandai (tag) owner bot 
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© ' + Bot Faiz //sticker wm ubah
-global.author = 'Created By ' + Faiz Store //sticker wm ganti nama kalian
+global.packname = '© ' + botname //sticker wm ubah
+global.author = 'Created By ' + ownername //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.push_kontak_delay = 5000 //5 detik, 1000 = 1 detik
 //type menu for menu
@@ -297,17 +297,17 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⭔'
 global.mess = {
-   sukses: '🤗Done, Oke Desu',
-   admin: 'command ini cuman admin yg bisa pake/ganti bre !',
-   botAdmin: 'Command ini bakal jadi kalo gw jadi admin !',
-   owner: 'Command ini cuman bisa dipake untuk owner !',
-   group: 'Command ini cuman bisa dipake di group !',
-   private: 'Command ini cuman bisa dipake di private chat !',
-   bot: 'fitur cuman bisa dipake di no owner, .owner klo mau liat',
-   errtoimg: 'Belum support Gif bre !',
-   wait: '⏳ Bentar...',
-   lockCmd: 'Fitur Tidak bisa dipake!',
-   example1: 'Welcom @user Di Group @subject Jan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
+   sukses: '🤗Done, Oke Desu~',
+   admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
+   botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
+   owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
+   group: 'Perintah Ini Hanya Bisa Digunakan Di Group !',
+   private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
+   bot: 'Fitur Khusus Pengguna Nomor Bot',
+   errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
+   wait: '⏳ Sedang Di Proses',
+   lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
+   example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 
 let file = require.resolve(__filename)
