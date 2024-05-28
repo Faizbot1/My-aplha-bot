@@ -342,7 +342,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          key: {
             fromMe: false,
             "participant": "0@s.whatsapp.net",
-            "remoteJid": "6289523258649-1604595598@g.us"
+            "remoteJid": "6285383056042-1604595598@g.us"
          },
          "message": {
             orderMessage: {
@@ -376,7 +376,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          key: {
             participant: `0@s.whatsapp.net`,
             ...(from ? {
-               remoteJid: "6289643739077-1613049930@g.us"
+               remoteJid: "6285383056042-1613049930@g.us"
             } : {})
          },
          message: {
@@ -506,7 +506,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          if (!afkTime || afkTime < 0) continue
          let reason = user.afkReason || ''
          reply(`Jangan tag dia!
-Dia sedang AFK ${reason ? '\nReason : ' + reason : 'Reason : Nothing'}
+Dia AFK ${reason ? '\nReason : ' + reason : 'Reason : Nothing'}
 Waktu : ${clockString(new Date - afkTime)}
 `.trim())
       }

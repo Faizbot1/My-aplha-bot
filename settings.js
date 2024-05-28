@@ -54,11 +54,11 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
+global.botname = "Alpak bot" //namabot kalian
 global.ownername = "Faiz Aplha" //nama kalian
-global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://s.id/zeeoneofc" //bebas
+global.myweb = "https://s.id/FaizAlpha" //bebas asal jan hapus
+global.youtube = "https://youtube.com/c/@Faiz_Kiko" //bebas asal jan hapus
+global.myweb2 = "https://s.id/FaizAlpha" //bebas
 global.email = "faisgaming131@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Makassar' //  timezone wib
@@ -298,16 +298,16 @@ global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⭔'
 global.mess = {
    sukses: '🤗Done, Oke Desu~',
-   admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
-   botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
-   owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
-   group: 'Perintah Ini Hanya Bisa Digunakan Di Group !',
-   private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
-   bot: 'Fitur Khusus Pengguna Nomor Bot',
+   admin: 'Commandnya hanya admin yg nisa doang:v!',
+   botAdmin: 'Commandnya berhasil kalo gw jadi admin !',
+   owner: 'Cuman Owner bot yg bisa bre !',
+   group: 'Harusnya dipake Di Group !',
+   private: 'Pake Di Private uy !',
+   bot: 'Fitur Cuman nomor yg termaksud doang (ketik .owner kalo mau liat"',
    errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
    wait: '⏳ Sedang Di Proses',
    lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
-   example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
+   example1: 'Welcome @user Di Grop @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 
 let file = require.resolve(__filename)
