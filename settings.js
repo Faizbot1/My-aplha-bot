@@ -8,7 +8,7 @@ const {
 
 //sebagian panel gk support opena ai jadi mungkin apikey lu bakalan di blokir
 //klo misalkan pada saat memakai fitur ai, terus dapat email dari open si, itu berarti website tempat lu install bot gk support ai
-global.OpenAIKey = "YOUR_KEY" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "3ehIgduze4xThLZ" //login to https://platform.openai.com/account/api-keys to get apikey
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
@@ -30,7 +30,7 @@ global.antidelete = false // anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call, jika true maka org yg nelpon bot auto di blokir
-global.userRegister = false
+global.userRegister = true
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 global.autolevelup = true
 global.auto_antilink = false //jika true, bot (admin) otomatis menghapus pesan & mengeluarkan member yang mengirim link grup
@@ -63,7 +63,7 @@ global.email = "faisgaming131@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Makassar' //  timezone wib
 global.premium_fitur = ["ai", "openai", "chatgpt"] //tambahin aja sendiri, soalnya gk semua org mau fiturnya premium jadi gw buat kyk gini aja, biar bisa custom fitur mana aja yang bakal di jadiin premium
-global.badword_list = ["asu", "anjir"] //tambahin sendiri kata² nya, gunakan huruf kecil
+global.badword_list = ["asu", "anjir","anjing","ajg","memek","mmk","puki","tai","taek","kontol","kntl","babi","bbi","fuck","stupid","stpd","fucking","fking"] //tambahin sendiri kata² nya, gunakan huruf kecil
 global.premium = ['6281234567890'] //premium user
 global.owner = ["6285383056042", "6282199060813"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = owner[0] + "@s.whatsapp.net"
@@ -204,7 +204,7 @@ global.rpg = {
          pickaxe: '⛏️',
          fishingrod: '🎣',
          wood: '🪵',
-         rock: '🪨',
+         rock: '🗿',
          string: '🕸️',
          horse: '🐴',
          cat: '🐱',
@@ -212,9 +212,9 @@ global.rpg = {
          fox: '🦊',
          petFood: '🍖',
          iron: '⛓️',
-         gold: '🪙',
+         gold: '🌟',
          emerald: '❇️',
-         upgrader: '🧰'
+         upgrader: '⬆⬆⬆'
 
       }
       let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
